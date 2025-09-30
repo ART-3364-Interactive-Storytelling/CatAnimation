@@ -56,7 +56,7 @@
 1. In the Animator window, click the Parameters tab.
 <img width="462" height="211" alt="Screenshot 2025-09-30 at 11 03 32 AM" src="https://github.com/user-attachments/assets/55a5daf7-3bed-459c-bc94-f165547996f7" />
    
-2. Add four ```Triggers``: MouseMoved, NoMouse30s, NoMouse40s, IdleRoll
+2. Add six ```Triggers``: MouseMoved, NoMouse30s, NoMouse40s, Dance, Laydown, Surprised
 * (Optional) An int called RandomChoice if you want to handle random rolls.
 3.	Use these parameters in transition conditions. Example:
 4. In the **Animator** pane click a transition. It will turn blue
