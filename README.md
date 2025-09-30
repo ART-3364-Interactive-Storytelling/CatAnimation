@@ -90,20 +90,5 @@
 10. Connect the output of ```Get Variable lastMousePosition``` to input A of ```Distance```
 <img width="456" height="330" alt="Screenshot 2025-09-30 at 11 35 01 AM" src="https://github.com/user-attachments/assets/cbdea42e-cf98-4829-a3c7-ee968e365d99" />
 
-11. Add a ```Float Compare To``` node.
-12. Set the value to 0.1
-13. Connect the output of ```Distance``` to the ```Value``` field of the ```Comapre To``` node.
-    <img width="441" height="250" alt="Screenshot 2025-09-30 at 11 38 03 AM" src="https://github.com/user-attachments/assets/4dae4572-a2b9-4e29-a127-d61a275eb19f" />
-
-14.  From the **Hierarchy** drag your Cat GameObejct onto the graph and select ```Animator Set Trigger```
-15. Right click in the graph and add a ```Set Variable``` node.
-16. Connct the output from ```Get Mouse Position``` to the input of ```Set Variable```
-17. Connect the Green Arrows from node to node as shown:\
-<img width="1372" height="633" alt="Screenshot 2025-09-30 at 12 04 53 PM" src="https://github.com/user-attachments/assets/8c371b0e-c4d8-4a43-a4b2-339f38afba92" />
-
-    
-6 .	If distance > small threshold → Trigger MouseMoved in Animator:
-	•	Add Animator Set Trigger unit.
-	•	Target = Cat’s Animator.
-	•	Parameter = "MouseMoved".
-	5.	Update lastMousePos each frame with the current mouse position.
+11. Construct the rest of the graph:
+<img width="2735" height="1004" alt="Screenshot 2025-09-30 at 12 56 42 PM" src="https://github.com/user-attachments/assets/6d9b7810-c390-4d1d-88f1-c423c6427c19" />
